@@ -20,10 +20,10 @@ const Home: React.FC<HomeInterface> = () => {
 				<header className='d-flex flex-column gap-5'>
 					<div className='row gap-5 gap-md-3 m-2 flex-column-reverse flex-md-row'>
 						<div className='col-md d-flex flex-column justify-content-center gap-4'>
-							<h1 className='display-5 fw-normal text-black__custom  text-md-start'>Galería de mascotas</h1>
+							<h1 className='display-5 fw-normal text-black__custom  text-md-start'>Happy pet</h1>
 							<p className='text-center text-md-start'>
-								Contamos con la información de muchas mascotas de todo el mundo, comparte la información
-								de tu mascota y forma parte de esta comunidad 😊
+								Veterinaria enfocado en brindar la mejor atención para tu mascota, todo lo que necesita en un solo lugar.
+								Contamos con instalaciones de la mejor calidad y comodidad para tu mascota 😊
 							</p>
 							<button className='btn  btn-primary__custom fs-5 px-3 py-3 text-light w-50 mx-auto'>Registratrar mascota!!!</button>
 						</div>

@@ -17,6 +17,7 @@ import { AdminMascota } from './pages/AdminMascota';
 import 'bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { Galeria } from "./pages/Galeria";
+import { Productos } from "./pages/Productos";
 
 
 function App() {
@@ -39,6 +40,9 @@ function App() {
         } />
         <Route path='/galeria' element={
           <Galeria />
+        } />
+        <Route path='/productos' element={
+          <Productos />
         } />
       </Routes>
       <Footer />
